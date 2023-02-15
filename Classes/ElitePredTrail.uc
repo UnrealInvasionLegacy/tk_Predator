@@ -1,0 +1,33 @@
+class ElitePredTrail extends xEmitter;
+
+defaultproperties
+{
+     mStartParticles=0
+     mMaxParticles=150
+     mLifeRange(0)=1.250000
+     mLifeRange(1)=1.250000
+     mRegenRange(0)=90.000000
+     mRegenRange(1)=90.000000
+     mSpeedRange(0)=0.000000
+     mSpeedRange(1)=0.000000
+     mMassRange(0)=-0.030000
+     mMassRange(1)=-0.010000
+     mRandOrient=True
+     mSpinRange(0)=-75.000000
+     mSpinRange(1)=75.000000
+     mSizeRange(0)=12.500000
+     mSizeRange(1)=15.000000
+     mGrowthRate=13.000000
+     mColorRange(0)=(B=40,G=40)
+     mColorRange(1)=(B=40,G=40)
+     mAttenFunc=ATF_ExpInOut
+     mRandTextures=True
+     mNumTileColumns=4
+     mNumTileRows=4
+     Physics=PHYS_Projectile
+     RemoteRole=ROLE_SimulatedProxy
+     LifeSpan=10.000000
+     Skins(0)=Texture'XEffects.EmitSmoke_t'
+     Style=STY_Additive
+     bIgnoreOutOfWorld=True
+}
